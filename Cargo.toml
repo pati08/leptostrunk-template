@@ -1,0 +1,10 @@
+[package]
+name = "leptostrunk"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+console_error_panic_hook = "0.1.7"
+leptos = { version = "0.7.4", features = ["csr"] }
+log = "0.4.25"
+wasm-logger = "0.2.0"

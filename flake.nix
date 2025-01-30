@@ -26,6 +26,7 @@
             pkgs.trunk
             pkgs.just
             pkgs.irust
+            pkgs.leptosfmt
           ];
 
           shellHook = ''
@@ -34,6 +35,7 @@
             echo "Trunk version: $(trunk --version)"
             echo "Just version: $(just --version)"
             echo "IRust version: $(irust --version)"
+            echo "Leptosfmt version: $(leptosfmt --version)"
           '';
         };
       }
